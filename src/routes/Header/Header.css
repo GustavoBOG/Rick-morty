@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: RGB(77, 175, 84);
+  width: 100%;
+
+}
+
+header nav {
+  display: flex; /* Usa Flexbox para alinear los elementos */
+}
+
+nav li {
+    margin-right: 120px;
+    font-size: 25px;
+  }
+
+header ul {
+  list-style: none;
+  display: flex; 
+  justify-content:center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
