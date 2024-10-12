@@ -1,5 +1,5 @@
 import List from "../List/List"
-import './home.css';
+import './Home.css';
 
 function Home() {
   return (
