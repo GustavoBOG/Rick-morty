@@ -6,7 +6,10 @@
 
 /* Contenedor general */
 .character-list {
-  background: radial-gradient(circle at top left, #334C29, #4A6572, #2E3A25);
+  background-color: #2E3A25;
+  border: 2px dashed #39FF14;
+  border-left: 20px solid #39FF14;
+  box-shadow: 0 0 60px rgba(183, 234, 106, 0.5);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;

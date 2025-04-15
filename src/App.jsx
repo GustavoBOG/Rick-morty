@@ -3,7 +3,7 @@ import Home from "./routes/Home/Home.jsx"
 import Header from "./routes/Header/Header.jsx"
 import List from "./routes/List/List.jsx"
 import IndividualCard from "./routes/IndividualCard/IndividualCard.jsx"
-import './app.css';
+import './App.css';
 
 function App() {
   return (
