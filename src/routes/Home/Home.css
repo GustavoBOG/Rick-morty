@@ -1,7 +1,7 @@
 /* Home.css */
 .home-container {
-    background: radial-gradient(circle at top left, #c2f09a, #e0f7fa, #f1f8e9);
-    min-height: 86.5vh;
+    background: radial-gradient(circle at top left, #334C29, #4A6572, #2E3A25);
+    min-height: 86.9vh;
     padding: 60px 20px;
     display: flex;
     justify-content: center;
@@ -11,34 +11,36 @@
   .hero {
     text-align: center;
     max-width: 700px;
-    padding: 30px;
-    background-color: #ffffffd9;
-    border: 2px dashed #b7ea6a;
+    padding: 50px;
+    background-color: #2E3A25;
+    border: 2px dashed #39FF14;
+    border-left: 10px solid #39FF14;
     border-radius: 20px;
-    box-shadow: 0 0 15px rgba(183, 234, 106, 0.5);
+    box-shadow: 0 0 60px rgba(183, 234, 106, 0.5);
   }
   
   .hero h1 {
-    font-size: 3rem;
-    color: #213b55;
+    font-family: 'Bangers', cursive;
+    font-size: 4rem;
+    color: #00FFFF;
     margin-bottom: 10px;
   }
   
   .subtitle {
-    font-size: 1.8rem;
-    color: #4caf50;
+    font-size: 2rem;
+    color: #39FF14;
     font-style: italic;
     margin-bottom: 20px;
   }
   
   .hero p {
     font-size: 1.2rem;
-    color: #444;
+    color: #E0E0E0;
     margin-bottom: 30px;
   }
   
   .cta-button {
-    background-color: #90eb08;
+    background-color: #2bff00;
     color: #213b55;
     padding: 15px 30px;
     border-radius: 30px;
@@ -46,12 +48,13 @@
     text-decoration: none;
     font-size: 1.5rem;
     transition: background 0.3s ease, transform 0.2s ease;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 0 10px rgba(183, 234, 106, 0.5);
   }
   
   .cta-button:hover {
     background-color: #76d007;
     transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(183, 234, 106, 0.5);
   }
 
   .fade-in {
@@ -70,16 +73,18 @@
   }
   
   .fun-fact {
+    background-color: #2E3A25;
+    border: 2px dashed #39FF14;
+    border-radius: 20px;
     margin-top: 40px;
-    background-color: #ffffffce;
     padding: 20px 30px;
-    border-left: 6px solid #4caf50;
+    border-left: 10px solid #39FF14;
     border-radius: 12px;
     max-width: 700px;
     text-align: left;
-    font-size: 1.2rem;
-    color: #213b55;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    font-size: 1.5rem;
+    color: #E0E0E0;
+    box-shadow: 0 0 60px rgba(183, 234, 106, 0.5);
   }
 
   .fun-fact h3 {
