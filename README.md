@@ -48,28 +48,29 @@ Una vez que las dependencias estén instaladas, puedes iniciar la aplicación de
 
 ```bash
 npm run dev
-
+```
 
 **Esto abrirá la aplicación en tu navegador web (normalmente en `http://localhost:3000`).**
 
 **Simplemente utiliza la barra de búsqueda para ingresar el nombre de un personaje o simplemente ve a la lista de personajes y ve pasando las paginas. Los resultados se mostrarán dinámicamente. Haz clic en un personaje para ver sus detalles completos.**
 
-## Capturas de Pantalla (Opcional)
-
-Si tienes capturas de pantalla de tu proyecto, puedes incluirlas aquí para dar una vista previa visual. Por ejemplo:
-
+## Capturas de Pantalla
+* **pagina de home** 
 ![Pagina principal de la aplicacion](screenshots/home.jpeg)
+* **Barra de navegacion** 
 ![Barra de navegacion](screenshots/header.jpeg)
+* **Buscador** 
 ![Buscador con sugerencias](screenshots/search.jpeg)
+* **lista de personajes** 
 ![Lista de los personajes](screenshots/listOC.jpeg)
+* **paginacion** 
 ![Paginacion debajo del todo](screenshots/pagination.jpeg)
+* **carta individual del personaje** 
 ![Carta individual del personaje](screenshots/card.jpeg)
-
 
 ## Contribuciones
 
 Las contribuciones son bienvenidas. Si deseas mejorar este proyecto, siéntete libre de crear un "pull request" con tus cambios. Por favor, asegúrate de seguir las buenas prácticas de codificación y documentar tus cambios.
-
 
 ## Agradecimientos
 
