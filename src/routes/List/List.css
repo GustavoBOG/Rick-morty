@@ -4,6 +4,12 @@
   padding: 0;
 }
 
+.list-container {
+  min-height: 100vh; /* Asegura que el contenedor ocupe al menos la altura de la ventana */
+  background-color: #2E3A25; /* O el color de fondo que desees */
+  padding-bottom: 20px; 
+}
+
 /* Contenedor general */
 .character-list {
   background-color: #2E3A25;
@@ -59,6 +65,7 @@
 
 /* Paginación centrada y separada */
 .pagination {
+  color: white;
   text-align: center;
   margin: 40px 0;
 }
@@ -68,6 +75,7 @@
   color: white;
   padding: 10px 20px;
   font-size: 18px;
+  font-weight: bold;
   border: none;
   border-radius: 8px;
   margin: 0 10px;
@@ -81,6 +89,7 @@
 }
 
 .pagination span {
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: bold;
   padding: 0 15px;
 }

@@ -55,7 +55,7 @@ function List() {
   }, [pageParam, currentPage]);
 
   return (
-    <div>
+    <div className='list-container'>
       <ul className="character-list">
         {characters.length > 0 ? (
           characters.map((character) => (

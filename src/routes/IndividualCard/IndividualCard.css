@@ -1,23 +1,73 @@
 /* IndividualCard.css */
 
+.back-arrow {
+    position: absolute; 
+    top: 20px;
+    left: 60px; 
+    font-weight: bolder;
+    font-size: 3em; 
+    line-height: 2;
+    color: rgb(255, 255, 255); 
+    cursor: pointer;
+    padding: 5px 12px; 
+    background-color: rgba(0, 0, 0, 0); 
+    transition: transform 0.2s ease-in-out;
+}
+
+.back-arrow:hover {
+    text-shadow: 0 0 30px rgb(0, 255, 0);
+    transform: scale(1.5); 
+}
+
 .individual-card-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh; /* Asegura que ocupe toda la altura de la ventana */
+    min-height: 100vh; 
+    position: relative;
 }
 
 .character-card {
+    color: white;
     width: 100%;
     max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
-    background-color: #f9f9f9;
+    background-color: #01292b ;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border: 2px solid #39ff14;
+    box-shadow: 0 0 10px 2px #39FF14;
 }
+
+
 
 .character-card img {
     width: 100%;
     border-radius: 12px 12px 0 0;
     object-fit: cover;
+}
+
+.status-indicator {
+    display: inline-block; /* Para que se alinee con el texto */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%; /* Para hacerlo un círculo */
+    margin-left: 5px; /* Espacio entre el texto y el círculo */
+    vertical-align: middle; /* Alineación vertical con el texto */
+    font-size: 0.8em; /* Tamaño del signo de interrogación */
+    line-height: 10px; /* Centrar verticalmente el signo de interrogación */
+    text-align: center; /* Centrar horizontalmente el signo de interrogación */
+}
+
+.status-indicator.alive {
+    background-color: green;
+}
+
+.status-indicator.dead {
+    background-color: red;
+}
+
+.status-indicator.unknown {
+    background-color: black;
+    color: rgb(244, 247, 246); /* Color del signo de interrogación */
 }
